@@ -9,7 +9,7 @@ export default function BankruptcyPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-8 md:mt-20">
-      <div className="flex justify-center  md:mt-0 mt-30 gap-4 mb-10 flex-wrap">
+      <div className="flex justify-center  mt-10 md:mt-30 gap-4 mb-10 flex-wrap">
         <button
           onClick={() => navigate("/bankruptcy")}
           className={`text-[1.8vh] bg-blue-700 md:text-[1.2vw] px-6 py-2 rounded-full transition-all duration-300 font-semibold shadow-md cursor-pointer  text-white border border-blue-700 hover:bg-blue-100"

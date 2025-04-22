@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/PK LOGO.jpg";
+import logo from "../assets/logo.png";
 
 const navLinks = [
     { name: "Home", path: "/" },
@@ -40,7 +40,6 @@ export default function Header() {
                             src={logo} alt="" />
                     </Link>
 
-                    {/* <p>Logo</p> */}
                 </div>
 
                 {/* Desktop Nav */}
