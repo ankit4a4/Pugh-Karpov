@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo.png";
+import logo from "../assets/PK LOGO.jpg";
 
 const navLinks = [
     { name: "Home", path: "/" },
@@ -34,13 +34,13 @@ export default function Header() {
             <div className="mx-auto px-[5vw] py-[2vh] flex items-center justify-between">
                 {/* Logo */}
                 <div className="w-[40%] md:w-[15%]">
-                    {/* <Link to="/">
+                    <Link to="/">
                         <img
-                            className="w-[100%] object-contain"
+                            className="w-[40%] object-contain"
                             src={logo} alt="" />
-                    </Link> */}
+                    </Link>
 
-                    <p>Logo</p>
+                    {/* <p>Logo</p> */}
                 </div>
 
                 {/* Desktop Nav */}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/PK LOGO.jpg";
 
 const Footer = () => {
     return (
@@ -9,14 +9,12 @@ const Footer = () => {
                 {/* Top Section: Logo + Links */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 pb-6 border-b border-gray-700">
                     {/* Logo */}
-                    <div className="flex items-center gap-4">
-                        {/* <img
+                    <div className="flex w-[100%] md:w-auto justify-center md:justify-between items-center gap-4 ">
+                        <img
                             src={logo}
                             alt="Pugh & Karpov Logo"
-                            className="h-10 w-auto object-contain"
-                        /> */
-                        }
-                        <p>Logo</p>
+                            className=" w-[20%] object-contain"
+                        />
                     </div>
 
                     {/* Navigation Links */}
