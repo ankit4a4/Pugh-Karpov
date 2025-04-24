@@ -131,7 +131,7 @@ const ContactUs = () => {
                             <Mail className="text-blue-700 w-7 h-7 mt-1" />
                             <div>
                                 <h2 className="text-xl font-bold text-blue-700 mb-1">Email</h2>
-                                <p className="text-gray-700">legal@dnddevelopment.net</p>
+                                <p className="text-gray-700">legal@pughkarpov.com</p>
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ const ContactUs = () => {
                         that any use, distribution, copying or disclosure of this
                         communication is strictly prohibited. If you have received this
                         communication in error, please notify PUGH & KARPOV LAW, P.C. at
-                        (757) 426-7660 or by return e-mail to legal@dnddevelopment.net and
+                        (757) 426-7660 or by return e-mail to legal@pughkarpov.com and
                         purge the communication immediately without making any copy or
                         distribution.
                     </p>
