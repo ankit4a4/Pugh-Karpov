@@ -16,10 +16,12 @@ const ContactUs = () => {
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Form submitted:", formData);
-    };
+
+
+
+    // const handleSubmit = () => {
+
+    // };
 
     return (
         <div className="bg-white py-16 px-6 md:px-16 lg:px-24 mt-20">
@@ -35,7 +37,6 @@ const ContactUs = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Contact Form */}
                     <form
-                        onSubmit={handleSubmit}
                         className="space-y-6"
                         data-aos="fade-up"
                     >

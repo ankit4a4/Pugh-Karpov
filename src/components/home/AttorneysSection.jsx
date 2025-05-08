@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import img from "../../assets/Home/Gregory.jpg";
-import img2 from "../../assets/Home/Anton.jpg";
+import img2 from "../../assets/Home/newImage.jpg";
 
 const attorneys = [
   {
